@@ -1,0 +1,607 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sassiz-Root Resume</title>
+
+<!-- Favicons
+================================================== -->
+<link rel="shortcut icon" href="{% static 'favicon2.ico' %}" type="image/x-icon">
+<link rel="icon" href="{% static 'favicon2.ico' %}" type="image/x-icon">
+<!-- / Favicons
+================================================== -->
+
+<!-- >> CSS
+============================================================================== -->
+<link href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+<!-- Google Web Fonts -->
+<link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+<!-- Font Awesome -->
+<link href="{% static 'vendor/font-awesome/css/font-awesome.min.css' %}" rel="stylesheet">
+<!-- animate.css -->
+<link href="{% static 'vendor/animate.css' %}" rel="stylesheet">
+<!-- fancybox.css -->
+<link href="{% static 'vendor/fancybox/jquery.fancybox.css' %}" rel="stylesheet">
+<!-- owl carousel -->
+<link href="{% static 'vendor/owl.carousel/owl-carousel/owl.carousel.css' %}" rel="stylesheet">
+<link href="vendor/owl.carousel/owl-carousel/owl.theme.css' %}" rel="stylesheet">
+<!-- Main Styles -->
+<link href="{% static 'css/styles.css' %}" rel="stylesheet">
+
+<!-- >> /CSS
+============================================================================== -->
+</head>
+<body class="">
+
+
+
+<!-- Header
+================================================== -->
+<header id="header">
+	<nav class="navbar">
+        <div class="container">
+
+            <!-- Navbar Header -->
+            <div class="navbar-header">
+            	<!-- Collapse Button -->
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <!-- /Collapse Button -->
+            </div>
+            <!-- / Navbar Header -->
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">                  
+                    <li>
+                        <a href="#about">About</a>
+                    </li>     
+                    <li>
+                        <a href="#education">Education</a>
+                    </li>  
+                    <li>
+                        <a href="#experience">Experience</a>
+                    </li>  
+                    <li>
+                        <a href="#testimonials">Testimonials</a>
+                    </li>
+                    <li>
+                        <a href="#testimonials">Skills</a>
+                    </li>              
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li> 
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+</header>
+<!-- / Header
+================================================== -->
+
+<!-- Main Content
+================================================== -->
+<section id="body" class="">	
+
+	<!-- Section: Mini Hero -->
+	<div class="section-mini-hero" id="hero1" style="background-image: url('{% static 'img/bg2.jpg' %}');">
+		<div class="container">
+			<div class="profile-pic">
+				<img src="{% static 'img/profile.jpg' %}" alt=""/>
+			</div>
+			<h1 class="title1 mini-hero-title">Hi, i'm <strong>Sassiz Root!</strong></h1>
+			<h2 class="title2 mini-hero-subtitle">Software Engineer & Developer</h2>			
+		</div>
+	</div>
+	<!-- /Section: Mini Hero -->
+
+	<!-- Section: About  -->
+	<div class="section-about" id="about">
+		<div class="container">
+			<!-- Section Title -->
+			<h2 class="title-of-section title-border">About Me</h2>
+			<!-- /Section Title -->	
+		</div>
+		<div class="container about-container">
+			<div class="row contrast">
+				<!-- Left Column -->
+				<div class="col-sm-6 col-no-padding">
+					<div class="about-picture" id="about-picture">
+						<img src="{% static 'img/about-image.jpg' %}" alt="" class="responsive-image">
+					</div>
+				</div>			
+				<!-- /Left Column -->
+				<!-- Right Column -->
+				<div class="col-sm-6"> 
+					<div class="padding-box">
+						<h1 class="title2">Who i am</h1>
+						<p>I am Sassiz-Root, I have bachler degree in software engineering and have experience in programming and software development. I did project with some of programming language like c++, Java, Python, MQL and PHP.</p>		
+						<!-- row -->
+						<div class="row">
+							<!-- col -->
+							<div class="col-sm-6">
+								<h3 class="title3">Address</h3>
+								<p>123 Shahrak – Tehran – Iran</p>
+							</div>
+							<!-- /col -->
+							<!-- col -->
+							<div class="col-sm-6">
+								<h3 class="title3">Email</h3>
+								<p>sassiz.root@gmail.com</p>
+							</div>
+							<!-- /col -->
+						</div>	
+						<!-- /row -->
+
+						<!-- row -->
+						<div class="row">
+							<!-- col -->
+							<div class="col-sm-6">
+								<h3 class="title3">Phone</h3>
+								<p>123 456 7891</p>
+							</div>
+							<!-- /col -->
+							<!-- col -->
+							<div class="col-sm-6">
+								<h3 class="title3">Find me On</h3>
+								<!-- Social Icons -->
+			                    <div class="social-icons">
+			                        <a href="#"><i class="fa fa-instagram"></i></a>
+			                        <a href="#"><i class="fa fa-facebook"></i></a>
+			                        <a href="#"><i class="fa fa-twitter"></i></a>
+			                        <a href="#"><i class="fa fa-linkedin"></i></a>
+			                        <a href="#"><i class="fa fa-youtube"></i></a>
+			                    </div>
+			                    <!-- /Social Icons -->
+							</div>
+							<!-- /col -->
+							
+						</div>	
+						<!-- /row -->					
+					</div>
+				</div>
+				<!-- /Right Column -->
+			</div>
+		</div>
+	</div>	
+	<!-- / Section: About  -->
+
+	<!-- SECTION: Features -->
+	<div class="section section-features" id="features">
+		<div class="container">	
+			<!-- Features -->
+			<div class="row">				
+				<!-- item -->
+				<div class="col-sm-3">
+					<div class="feature-item">
+						<div class="feature-icon">
+							<i class="fa fa-photo"></i>
+						</div>
+						<h2 class="feature-title">Web Programming</h2>
+						<div class="feature-description">
+							<p>Projects online shop with Django.</p>
+						</div>
+					</div>					
+				</div>
+				<!-- /item -->
+				<!-- item -->
+				<div class="col-sm-3">
+					<div class="feature-item">
+						<div class="feature-icon">
+							<i class="fa fa-laptop"></i>
+						</div>
+						<h2 class="feature-title">Meta Trader Expert</h2>
+						<div class="feature-description">
+							<p>Projects algo trading with MQL.</p>
+						</div>
+					</div>					
+				</div>
+				<!-- /item -->
+				<!-- item -->
+				<div class="col-sm-3">
+					<div class="feature-item">
+						<div class="feature-icon">
+							<i class="fa fa-globe"></i>
+						</div>
+						<h2 class="feature-title">Desktop Development</h2>
+						<div class="feature-description">
+							<p>Projects with Java Swing.</p>
+						</div>
+					</div>					
+				</div>
+				<!-- /item -->
+				<!-- item -->
+				<div class="col-sm-3">
+					<div class="feature-item">
+						<div class="feature-icon">
+							<i class="fa fa-line-chart"></i>
+						</div>
+						<h2 class="feature-title">IPTV Software Development</h2>
+						<div class="feature-description">
+							<p>Projects with BBC framework.</p>
+						</div>
+					</div>					
+				</div>
+				<!-- /item -->
+			</div>
+			<!-- /features -->	
+		</div>
+	</div>
+	<!-- /SECTION: Features -->	
+	
+
+	<!-- Section: Resume Education -->
+	<div class="section" id="education">
+		<div class="container">
+			<!-- Section Title -->
+			<h2 class="title-of-section title-border">Education</h2>
+			<!-- /Section Title -->		
+			<!-- row -->
+			<div class="row">				
+				<!-- item -->
+				<div class="col-sm-4">
+					<!-- box -->
+					<div class="resume-box">
+						<p class="resume-item-ico"><i class="fa fa-bank"></i></p>
+						<h2 class="title2 resume-item-title1">Software Engineering</h2>
+						<h3 class="title3 resume-item-title2">St. SSAU University (4 Years Course)</h3>
+						<p>This is a education field. My training and my academic experiences.</p>
+					</div>
+					<!-- box -->
+				</div>
+				<!-- /item -->
+				<!-- item -->
+				<div class="col-sm-4">
+					<!-- box -->
+					<div class="resume-box">
+						<p class="resume-item-ico"><i class="fa fa-bank"></i></p>
+						<h2 class="title2 resume-item-title1">Python Programming</h2>
+						<h3 class="title3 resume-item-title2">Several Online Courses (1 Years Course)</h3>
+						<p> Master of Python (intro and advance) programming several online courses .</p>
+					</div>
+					<!-- box -->
+				</div>
+				<!-- /item -->
+				<!-- item -->
+				<div class="col-sm-4">
+					<!-- box -->
+					<div class="resume-box">
+						<p class="resume-item-ico"><i class="fa fa-bank"></i></p>
+						<h2 class="title2 resume-item-title1">Finance Course</h2>
+						<h3 class="title3 resume-item-title2">Finance and Trading in Forex (2 Years Course)</h3>
+						<p>Educate finance and several trading methods and algo trading.</p>
+					</div>
+					<!-- box -->
+				</div>
+				<!-- /item -->
+			</div>
+			<!-- /row -->
+		</div>
+	</div>
+	<!-- /Section: Resume Education -->	
+
+	<!-- Section: Resume Experience -->
+	<div class="section contrast" id="experience">
+		<div class="container">
+			<!-- Section Title -->
+			<h2 class="title-of-section title-border">Experience</h2>
+			<!-- /Section Title -->	
+			<!-- row -->
+			<div class="row">				
+				<!-- item -->
+				<div class="col-sm-4">
+					<!-- box -->
+					<div class="resume-box">
+						<p class="resume-item-ico"><i class="fa fa-flag"></i></p>
+						<h2 class="title2 resume-item-title1">Minion Trader.</h2>
+						<h3 class="title3 resume-item-title2">June 2023 – May 2024</h3>
+						<p>Real high frequency trader bot(expert) in meta trader.</p>
+					</div>
+					<!-- box -->
+				</div>
+				<!-- /item -->
+				<!-- item -->
+				<div class="col-sm-4">
+					<!-- box -->
+					<div class="resume-box">
+						<p class="resume-item-ico"><i class="fa fa-flag"></i></p>
+						<h2 class="title2 resume-item-title1">DD Onlie Shop.</h2>
+						<h3 class="title3 resume-item-title2">Jan 2024 – Apr 2025</h3>
+						<p>An online shop for e-commerce company that sales digital devices.</p>
+					</div>
+					<!-- box -->
+				</div>
+				<!-- /item -->
+				<!-- item -->
+				<div class="col-sm-4">
+					<!-- box -->
+					<div class="resume-box">
+						<p class="resume-item-ico"><i class="fa fa-flag"></i></p>
+						<h2 class="title2 resume-item-title1">IPTV Launcher</h2>
+						<h3 class="title3 resume-item-title2">Aug 2018 – Apr 2023</h3>
+						<p>A launcher for Samsung hotel TV with BBC Framework.</p>
+					</div>
+					<!-- box -->
+				</div>
+				<!-- /item -->
+			</div>
+			<!-- /row -->
+		</div>
+	</div>
+	<!-- /Section: Resume Experience -->	
+
+	<!-- Section: Image background-->
+	<div class="section contrast contrast-with-image text-center" style="background-image: url('{% static 'img/bg2.jpg' %}')">
+		<div class="container">
+			<h2 class="title1">Looking for a Professional?</h2>
+			<p>Request a free quote! I will be happy to help.</p>
+			<a href="" class="btn btn-default">Click here</a> <a href="" class="btn btn-default">Or Here</a>
+		</div>
+	</div>
+	<!-- / Section: Image Background-->
+
+	<!-- Double Section -->
+	<div class="section" id="testimonials">
+		<div class="container">
+			<!-- row -->
+			<div class="row">
+				<!-- Col -->
+				<div class="col-sm-6">
+					<!-- Section: Testimonials -->
+					<div class="section-testimonials">
+
+						<!-- Section Title -->
+						<h2 class="title-of-section">Testimonials</h2>
+						<!-- /Section Title -->
+
+						<!-- Testimonials -->
+						<div class="testimonials">
+							<!-- Testimonial Slides -->
+							<div class="testimonial-slides" id="testimonial-carousel">
+								<!-- item -->
+								<div class="testimonial-item">
+									<!-- Testimonial Content -->
+									<div class="testimonial-content">
+										<p>"Sassiz-Root, Love programming and computer systems. My favarite programming language is python!"</p>
+									</div>						
+									<!-- /Testimonial Content -->	
+							
+								</div>
+								<!-- /item -->
+							</div>
+							<!-- Testimonial Slides -->
+						</div>
+						<!-- /testimonials -->
+					</div>
+					<!-- /Section: Testimonials -->
+				</div>
+				<!-- /Col -->
+				<!-- Col -->
+				<div class="col-sm-6">
+					<!-- Section: Skills -->
+					<div class="section-skills">
+
+						<!-- Section Title -->
+						<h2 class="title-of-section text-right">Skills</h2>
+						<!-- /Section Title -->
+
+						<!-- Item Title -->
+						<h3 class="title4"><i class="fa fa-users"></i>&nbsp;&nbsp; Professional Skills</h3>
+						<!-- /Item Title -->
+						<!-- Skils List -->						
+						<ul class="skills-list">
+		                    <!-- item-list -->
+		                    <li>
+		                      <div class="progress">
+		                        <div class="progress-bar" role="progressbar" data-percent="70%" style="width: 70%;">
+		                            <span class="sr-only">70% Complete</span>
+		                        </div>
+		                        <span class="progress-type">Comunication</span>
+		                        <span class="progress-completed">70%</span>
+		                      </div>
+		                    </li>
+		                    <!-- /item list -->
+		                    <!-- item-list -->
+		                    <li>
+		                      <div class="progress">
+		                        <div class="progress-bar progress-bar-2" role="progressbar" data-percent="85%" style="width: 85%;">
+		                            <span class="sr-only">85% Complete</span>
+		                        </div>
+		                        <span class="progress-type">Leadership</span>
+		                        <span class="progress-completed">85%</span>
+		                      </div>
+		                    </li>
+		                    <!-- /item list -->
+		                    <!-- item-list -->
+		                    <li>
+		                      <div class="progress" title="Doing my best!">
+		                        <div class="progress-bar progress-bar-3" role="progressbar" data-percent="85%" style="width: 85%;">
+		                            <span class="sr-only">85% Complete</span>
+		                        </div>
+		                        <span class="progress-type">Confidence</span>
+		                        <span class="progress-completed">85%</span>
+		                      </div>
+		                    </li>
+		                    <!-- /item list -->
+		                </ul>
+						<!-- /Skils List -->
+
+						<!-- Item Title -->
+						<h3 class="title4"><i class="fa fa-laptop"></i>&nbsp;&nbsp; Software Skills</h3>
+						<!-- /Item Title -->
+						<!-- Skils List -->						
+						<ul class="skills-list">
+		                    <!-- item-list -->
+		                    <li>
+		                      <div class="progress">
+		                        <div class="progress-bar" role="progressbar" data-percent="70%" style="width: 70%;">
+		                            <span class="sr-only">70% Complete</span>
+		                        </div>
+		                        <span class="progress-type">C++</span>
+		                        <span class="progress-completed">70%</span>
+		                      </div>
+		                    </li>
+		                    <!-- /item list -->
+		                    <!-- item-list -->
+		                    <li>
+		                      <div class="progress">
+		                        <div class="progress-bar progress-bar-2" role="progressbar" data-percent="85%" style="width: 85%;">
+		                            <span class="sr-only">85% Complete</span>
+		                        </div>
+		                        <span class="progress-type">Python</span>
+		                        <span class="progress-completed">85%</span>
+		                      </div>
+		                    </li>
+		                    <!-- /item list -->
+		                    <!-- item-list -->
+		                    <li>
+		                      <div class="progress" title="Doing my best!">
+		                        <div class="progress-bar progress-bar-3" role="progressbar" data-percent="85%" style="width: 85%;">
+		                            <span class="sr-only">85% Complete</span>
+		                        </div>
+		                        <span class="progress-type">JEE</span>
+		                        <span class="progress-completed">85%</span>
+		                      </div>
+		                    </li>
+		                    <!-- /item list -->
+		                    <!-- item-list -->
+		                    <li>
+		                      <div class="progress">
+		                        <div class="progress-bar" role="progressbar" data-percent="50%" style="width: 50%;">
+		                            <span class="sr-only">50% Complete</span>
+		                        </div>
+		                        <span class="progress-type">JavaScript</span>
+		                        <span class="progress-completed">50%</span>
+		                      </div>
+		                    </li>
+		                    <!-- /item list -->
+		                </ul>
+						<!-- /Skils List -->
+					</div>
+					<!-- /Section: Skills -->
+				</div>
+				<!-- /Col -->
+			</div>
+			<!-- /row -->
+		</div>
+	</div>
+	<!-- /Double Section -->
+	
+
+	<!-- Section: Contact -->		
+	<div class="section section-contact" id="contact">
+		<div class="container">
+			<!-- Section Title -->
+			<h2 class="title-of-section title-border">Get in Touch</h2>
+			<!-- /Section Title -->
+			<!-- row -->
+			<div class="row">
+				<!-- col -->
+				<div class="col-sm-5">
+					<!-- box -->
+					<div class="contact-box">
+						<h4 class="title4">Address: </h4>
+						<p>Shahrak, Tehran - IR</p>
+						<h4 class="title4">Phone: </h4>
+						<p>+98 21 1111 2222</p>
+						<h4 class="title4">Mail: </h4>
+						<p>sassiz.root@gmail.com</p>
+						<!-- Social Icons -->
+	                    <div class="social-icons">
+	                        <a href="#"><i class="fa fa-instagram"></i></a>
+	                        <a href="#"><i class="fa fa-facebook"></i></a>
+	                        <a href="#"><i class="fa fa-twitter"></i></a>
+	                        <a href="#"><i class="fa fa-linkedin"></i></a>
+	                        <a href="#"><i class="fa fa-youtube"></i></a>
+	                    </div>
+	                    <!-- /Social Icons -->
+					</div>
+					<!-- /box -->					
+				</div>
+				<!-- /col -->
+				<!-- col -->
+				<div class="col-sm-7">
+
+				</div>
+				<!-- /col -->
+			</div>
+			<!-- /row -->
+		</div>
+	</div>
+	<!-- /Section: Contact -->	
+
+
+
+</section>
+<!-- /Main Content
+================================================== -->
+
+
+<!-- Footer
+================================================== -->
+<footer id="footer">
+    <div class="secondary-footer">
+        <div class="container">
+            <!-- row -->
+            <div class="row">
+                <!-- col -->
+                <div class="col-sm-6">
+                    <p class="footer-quote"><strong>"The power of imagination makes us infinite."</strong> <i>- Sassiz-Root</i></p>
+                </div>
+                <!-- /col -->
+                <!-- col -->
+                <div class="col-sm-6 text-right">
+                   
+                </div>
+                <!-- /col -->
+            </div>
+            <!-- /row -->
+        </div>        
+    </div>  
+</footer>
+<!-- /Footer
+================================================== -->
+
+
+<!-- >> JS
+============================================================================== -->
+
+<!-- jQuery (necessary for Bootstrap s JavaScript plugins) -->
+<script src="{% static 'vendor/jquery.min.js' %}"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="{% static 'vendor/bootstrap/js/bootstrap.min.js' %}"></script>
+<script src="{% static 'vendor/validate.js' %}"></script>
+<!-- Owl Caroulsel -->
+<script src="{% static 'vendor/owl.carousel/owl-carousel/owl.carousel.js' %}"></script>
+<!-- Waypoints -->
+<script src="{% static 'vendor/waypoints.min.js' %}"></script>
+<!-- Fancybox -->
+<script src="{% static 'vendor/fancybox/jquery.fancybox.js' %}"></script>
+<!-- Owl Caroulsel -->
+<script src="{% static 'vendor/owl.carousel/owl-carousel/owl.carousel.js' %}"></script>
+<!-- Images Loaded-->
+<script src="{% static 'vendor/imagesloaded.pkgd.min.js' %}"></script>
+<!-- Double Tap to Go -->
+<script src="{% static 'vendor/doubletaptogo.min.js' %}"></script>
+<!-- Cross-browser -->
+<script src="{% static 'vendor/cross-browser.js' %}"></script>
+<!-- Main Scripts -->
+<script src="{% static 'js/main.js' %}"></script>
+
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesnt work if you view the page via file:// -->
+<!--[if lt IE 9]>
+  <script src="vendor/html5shiv.js"></script>
+  <script src="vendor/respond.min.js"></script>
+<![endif]-->
+<!-- >> /JS
+============================================================================= -->
+</body>
+</html>
